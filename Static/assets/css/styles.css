@@ -12,7 +12,7 @@ body {
 	margin-top: 50px;
 	font-family: 'Raleway', Helvetica, sans-serif;
 	font-size: 16px;
-	background: url('../img/tile.jpg') top lef repeat;
+	background: url('../img/tile.jpg') top left repeat;
 }
 
 /* GLOBAL STYLES */
@@ -115,6 +115,18 @@ img {
 }
 
 /* LAYOUT */
+section {
+	padding: 80px 0;
+}
+section h2 {
+	margin: 20px 0 40px;
+}
+section h3 {
+	margin: 30px 0 10px;
+}
+.section-header {
+	text-align: center;
+}
 #optin {
 	background: #3e4249;
 	padding: 20px 0;
