@@ -46,13 +46,23 @@ img {
 .modal-content {
 	background: url('../img/tile.jpg') top left repeat;
 }
-
+button.btn:focus {
+	outline: none !important;
+}
 .btn {
 	font-weight: bold;
 }
 .btn-danger {
 	background-color: #dd5638;
 	border-color: #d95131;
+}
+.btn-success {
+	background-color: #79b044;
+	border: none;
+}
+.btn-success:hover {
+	background-color: #6a9b3d;
+	border-color: #6a9b3d;
 }
 
 .badge.social {
@@ -231,6 +241,22 @@ section h3 {
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
+}
+#signup {
+	background: url('../img/hipster-stuff.jpg') center center repeat fixed;
+	text-align: center;
+	background-size: cover;
+	color: white;
+	padding: 140px 0;
+}
+#signup h2 {
+	font-weight: normal;
+}
+#signup h2 strong {
+	border-bottom: 2px solid #dd5638;
+}
+#signup .btn {
+	font-size: 24px;
 }
 
 
