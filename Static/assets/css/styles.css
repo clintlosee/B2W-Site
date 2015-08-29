@@ -149,6 +149,12 @@ section h3 {
 #project-features {
 	text-align: center;
 }
+#video-feature {
+	background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
 
 /*== CUSTOM ICON SPRITE ==*/
 .ci {
