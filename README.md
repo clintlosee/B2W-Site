@@ -1,2 +1,2 @@
 # B2W-Site
-## Static website and WordPress Theme file
+This is just a simple static website to be converted to a WordPress theme.
